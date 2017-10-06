@@ -1,4 +1,4 @@
-import QRCode from 'qrcode';
+import * as QRCode from 'qrcode';
 
 import DEFAULTS from './defaults';
 import { encodeEthereumUri, decodeEthereumUri } from './uri_processor';
